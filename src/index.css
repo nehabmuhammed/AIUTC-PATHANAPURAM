@@ -401,7 +401,7 @@ ul {
 .hero__image-wrapper {
   position: relative;
   width: 100%;
-  height: clamp(210px, 48vw, 290px);
+  height: clamp(240px, 56vw, 340px);
   overflow: hidden;
   z-index: 2;
   background: var(--red-dark);
@@ -411,8 +411,14 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 42%;
   display: block;
+  filter: contrast(1.06) saturate(1.08) brightness(0.96);
+  transition: transform 0.6s ease;
+}
+
+.hero:hover .hero__image {
+  transform: scale(1.02);
 }
 
 /* Gradient mask blending image bottom into red */
@@ -422,11 +428,12 @@ ul {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 55%;
+  height: 50%;
   background: linear-gradient(
     to top,
     var(--red-primary) 0%,
-    rgba(167, 25, 32, 0.7) 35%,
+    rgba(167, 25, 32, 0.75) 25%,
+    rgba(167, 25, 32, 0.2) 65%,
     transparent 100%
   );
   z-index: 3;
@@ -441,8 +448,8 @@ ul {
   height: 100%;
   background: linear-gradient(
     90deg,
-    rgba(167, 25, 32, 0.6) 0%,
-    transparent 45%
+    rgba(167, 25, 32, 0.45) 0%,
+    transparent 40%
   );
   z-index: 4;
   pointer-events: none;

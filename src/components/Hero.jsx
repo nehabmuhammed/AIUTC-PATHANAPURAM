@@ -11,15 +11,10 @@ export default function Hero() {
       {/* Documentary worker photograph container */}
       <div className="hero__image-wrapper">
         <img
-          src="https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?w=1600&auto=format&fit=crop&q=80"
-          alt="തൊഴിലാളി ഐക്യം — എ.ഐ.ടി.യു.സി പത്തനാപുരം"
+          src="/images/hero-aituc.jpg"
+          alt="എ.ഐ.ടി.യു.സി പത്തനാപുരം തൊഴിലാളി മുന്നേറ്റം"
           className="hero__image"
           loading="eager"
-          onError={(e) => {
-            // High-quality fallback image if primary URL fails
-            e.target.src =
-              'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1600&auto=format&fit=crop&q=80';
-          }}
         />
 
         {/* Gradient overlays for smooth blending */}

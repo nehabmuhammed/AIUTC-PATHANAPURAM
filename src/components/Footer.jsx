@@ -42,9 +42,10 @@ const footerNavItems = [
   { label: 'ബന്ധപ്പെടുക', href: '#contact' },
 ];
 
+const currentYear = new Date().getFullYear();
+
 export default function Footer() {
   const { contact } = siteConfig;
-  const year = new Date().getFullYear();
 
   const scrollTo = (href) => {
     if (href.startsWith('#')) {
@@ -192,7 +193,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="footer__copyright">
-          © {year} AITUC Pathanapuram. All rights reserved.
+          © {currentYear} AITUC Pathanapuram. All rights reserved.
         </p>
       </div>
     </footer>
