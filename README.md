@@ -1,16 +1,81 @@
-# React + Vite
+# AITUC Pathanapuram Official Website
+(ഓൾ ഇന്ത്യ ട്രേഡ് യൂണിയൻ കോൺഗ്രസ് - പത്തനാപുരം)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, Malayalam-first website for **AITUC Pathanapuram (All India Trade Union Congress)** built with React, Vite, Tailwind CSS, and Lucide Icons.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚩 Features
 
-## React Compiler
+- **Malayalam-First Typography & Content**: Integrated with `Noto Sans Malayalam` and clean English accents (`Inter`).
+- **Brand Identity**: Signature AITUC red-themed palette (`#A71920`) with balanced contrast and professional aesthetics.
+- **Mobile-First Responsive Design**: Fluid typography, responsive grids, touch-friendly CTA buttons, and a clean slide-in mobile navigation menu.
+- **Poster-Aesthetic Hero**: Wide documentary imagery with gradient overlays, organizational badge, and dual CTA actions.
+- **Interactive Lightbox Gallery**: Fullscreen image preview with keyboard navigation (`Esc`, `ArrowLeft`, `ArrowRight`).
+- **External Form Integration**: Direct redirection to Google Forms for:
+  - **Membership Registration**: `https://forms.gle/J96duk9a17ddkbZq7`
+  - **Grievance / Complaint Submission**: Configurable via `siteConfig.js`.
+- **Centralized Data & Configuration**:
+  - `src/config/siteConfig.js` — Form links, contact numbers, email, and social links.
+  - `src/data/leaders.js` — Committee leadership roster.
+  - `src/data/activities.js` — Organizational programs & agitations.
+  - `src/data/announcements.js` — Upcoming notices & events.
+  - `src/data/gallery.js` — Photo gallery collection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Framework**: [React 19](https://react.dev/) + [Vite](https://vite.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) + Custom CSS Design Tokens
+- **Icons**: [Lucide React](https://lucide.dev/) + Custom SVG Brand Badges
+- **Language**: JavaScript (ESM / JSX)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/nehabmuhammed/AIUTC-PATHANAPURAM.git
+cd AIUTC-PATHANAPURAM
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start development server
+```bash
+npm run dev
+```
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+---
+
+## ⚙️ Configuration
+
+### Updating Google Forms & Contact Info
+All external links and contact information are managed inside:
+[`src/config/siteConfig.js`](src/config/siteConfig.js)
+
+```javascript
+export const siteConfig = {
+  organisationName: "AITUC Pathanapuram",
+  registrationFormUrl: "https://forms.gle/J96duk9a17ddkbZq7",
+  complaintFormUrl: "YOUR_GOOGLE_COMPLAINT_FORM_URL",
+  contact: {
+    phone: "",
+    email: "",
+    address: "",
+    whatsapp: "",
+    facebook: "",
+    instagram: "",
+  },
+};
+```
