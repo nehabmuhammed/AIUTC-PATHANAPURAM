@@ -22,12 +22,12 @@ export const siteConfig = {
   //  Fill in the actual contact details below.
   // ----------------------------------------------------------------
   contact: {
-    phone: "",            // e.g. "+91 94470 00000"
-    email: "",            // e.g. "aitucpathanapuram@gmail.com"
-    address: "",          // e.g. "AITUC Office, Pathanapuram, Kollam, Kerala - 689695"
-    whatsapp: "",         // e.g. "https://wa.me/919447000000"
-    facebook: "",         // e.g. "https://www.facebook.com/aitucpathanapuram"
-    instagram: "",        // e.g. "https://www.instagram.com/aitucpathanapuram"
+    phone: "+91 9947313698",
+    email: "Sfckaituc@gmail.com",
+    address: "സ്പെൻസർ ഭവൻ, പത്തനാപുരം",
+    whatsapp: "https://wa.me/919947313698",
+    facebook: "",
+    instagram: "",
   },
 };
 
