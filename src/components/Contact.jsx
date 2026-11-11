@@ -70,7 +70,8 @@ export default function Contact() {
                 contact.address
               ) : (
                 <span className="contact__placeholder">
-                  [ ഓഫീസ് വിലാസം ഇനിയും ചേർത്തിട്ടില്ല ]
+                  സ്പെൻസർ ഭവൻ,
+                  പത്തനാപുരം
                 </span>
               )}
             </ContactItem>
@@ -80,7 +81,7 @@ export default function Contact() {
                 <a href={`tel:${contact.phone}`}>{contact.phone}</a>
               ) : (
                 <span className="contact__placeholder">
-                  [ ഫോൺ നമ്പർ ഇനിയും ചേർത്തിട്ടില്ല ]
+                  +91 9947313698
                 </span>
               )}
             </ContactItem>
@@ -90,7 +91,7 @@ export default function Contact() {
                 <a href={`mailto:${contact.email}`}>{contact.email}</a>
               ) : (
                 <span className="contact__placeholder">
-                  [ ഇ-മെയിൽ ഇനിയും ചേർത്തിട്ടില്ല ]
+                  Sfckaituc@gmail.com
                 </span>
               )}
             </ContactItem>
