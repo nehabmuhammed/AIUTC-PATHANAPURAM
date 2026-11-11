@@ -17,11 +17,11 @@ export default function About() {
         {/* Image */}
         <div className="about__image-wrap reveal">
           <img
-            src="https://images.unsplash.com/photo-1573164574001-518958d9b7d4?w=800&q=80"
-            alt="AITUC Pathanapuram — തൊഴിലാളി ഐക്യ പ്രവർത്തനങ്ങൾ"
+            src="/images/gallery/gallery-03.jpg"
+            alt="സ്റ്റേറ്റ് ഫാമിംഗ് കോർപ്പറേഷൻ വർക്കേഴ്സ് & എംപ്ലോയീസ് യൂണിയൻ പ്രവർത്തകർ"
             loading="lazy"
             onError={(e) => {
-              e.target.style.display = 'none';
+              e.target.display = 'none';
               e.target.parentNode.classList.add('about__image-placeholder');
             }}
           />

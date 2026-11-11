@@ -38,4 +38,9 @@ export const galleryImages = [
     src: "/images/gallery/gallery-07.jpg",
     caption: "യൂണിയൻ പതാക ഉയർത്തലും വിപ്ലവ മുദ്രാവാക്യങ്ങളും",
   },
+  {
+    id: 8,
+    src: "/images/gallery/gallery-08.jpg",
+    caption: "തൊഴിലാളികളുടെ പ്രശ്നങ്ങളും ആവശ്യങ്ങളും ചർച്ച ചെയ്യുന്ന പൊതുയോഗം",
+  },
 ];
