@@ -37,17 +37,16 @@ export default function Hero() {
       {/* Hero text content */}
       <div className="hero__content">
         <div className="hero__tag" aria-label="Organisation label">
-          ALL INDIA TRADE UNION CONGRESS
+          State Farming Corporation Workers and Employees Union
         </div>
 
         <h1 className="hero__heading">
-          <span>തൊഴിലാളികളുടെ ഐക്യം</span>
-          <span className="highlight">നാടിന്റെ പുരോഗതി</span>
+          <span>നമ്മുടെ യൂണിയൻ</span>
+          <span className="highlight">നമ്മുടെ ശബ്ദം</span>
         </h1>
 
         <p className="hero__subtext">
-          തൊഴിലാളികളുടെ അവകാശങ്ങൾക്കും ക്ഷേമത്തിനും വേണ്ടി ഒരുമിച്ച്
-          പ്രവർത്തിക്കുന്ന സംഘടനയാണ് എ.ഐ.ടി.യു.സി പത്തനാപുരം.
+          തൊഴിലാളികളുടെ ശബ്ദത്തിനും അവകാശപോരാട്ടത്തിനും ഒരുമിച്ച് മുന്നോട്ട്.
         </p>
 
         <div className="hero__buttons">
