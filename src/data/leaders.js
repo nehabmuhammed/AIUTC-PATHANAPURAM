@@ -1,51 +1,62 @@
 // ============================================================
 //  AITUC Pathanapuram — Leadership Data
-//  Replace placeholder entries with actual leadership details.
-//  Add or remove objects from the array as needed.
 // ============================================================
 
 export const leaders = [
   {
     id: 1,
-    name: "[ നേതാവിന്റെ പേര് ]",
-    designation: "[ സ്ഥാനം — ഉദാ: പ്രസിഡന്റ് ]",
+    name: "നേതാവ്",
+    designation: "പ്രസിഡന്റ്",
     description: "",
-    image: null, // Replace with image path: "/images/leaders/president.jpg"
+    image: "/images/leaders/leader-01.jpg",
   },
   {
     id: 2,
-    name: "[ നേതാവിന്റെ പേര് ]",
-    designation: "[ സ്ഥാനം — ഉദാ: ജനറൽ സെക്രട്ടറി ]",
+    name: "നേതാവ്",
+    designation: "ജനറൽ സെക്രട്ടറി",
     description: "",
-    image: null,
+    image: "/images/leaders/leader-02.jpg",
   },
   {
     id: 3,
-    name: "[ നേതാവിന്റെ പേര് ]",
-    designation: "[ സ്ഥാനം — ഉദാ: ട്രഷറർ ]",
+    name: "നേതാവ്",
+    designation: "ഭാരവാഹി",
     description: "",
-    image: null,
+    image: "/images/leaders/leader-03.jpg",
   },
   {
     id: 4,
-    name: "[ നേതാവിന്റെ പേര് ]",
-    designation: "[ സ്ഥാനം ]",
+    name: "നേതാവ്",
+    designation: "ഭാരവാഹി",
     description: "",
-    image: null,
+    image: "/images/leaders/leader-04.jpg",
   },
   {
     id: 5,
-    name: "[ നേതാവിന്റെ പേര് ]",
-    designation: "[ സ്ഥാനം ]",
+    name: "നേതാവ്",
+    designation: "ഭാരവാഹി",
     description: "",
-    image: null,
+    image: "/images/leaders/leader-05.jpg",
   },
   {
     id: 6,
-    name: "[ നേതാവിന്റെ പേര് ]",
-    designation: "[ സ്ഥാനം ]",
+    name: "നേതാവ്",
+    designation: "ഭാരവാഹി",
     description: "",
-    image: null,
+    image: "/images/leaders/leader-06.jpg",
+  },
+  {
+    id: 7,
+    name: "നേതാവ്",
+    designation: "ഭാരവാഹി",
+    description: "",
+    image: "/images/leaders/leader-07.jpg",
+  },
+  {
+    id: 8,
+    name: "നേതാവ്",
+    designation: "ഭാരവാഹി",
+    description: "",
+    image: "/images/leaders/leader-08.jpg",
   },
 ];
-
