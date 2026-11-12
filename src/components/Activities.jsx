@@ -1,22 +1,5 @@
-import {
-  Megaphone,
-  Flag,
-  Users,
-  HeartHandshake,
-  CalendarCheck,
-  ShieldCheck,
-  Activity as DefaultIcon,
-} from 'lucide-react';
+import { MapPin, Image as ImageIcon } from 'lucide-react';
 import { activities } from '../data/activities';
-
-const iconMap = {
-  Megaphone,
-  Flag,
-  Users,
-  HeartHandshake,
-  CalendarCheck,
-  ShieldCheck,
-};
 
 export default function Activities() {
   return (
@@ -39,7 +22,6 @@ export default function Activities() {
 
         <div className="activities__grid">
           {activities.map((activity, index) => {
-            const IconComponent = iconMap[activity.icon] || DefaultIcon;
             const number = String(index + 1).padStart(2, '0');
 
             return (
@@ -48,19 +30,40 @@ export default function Activities() {
                 className="activity-card reveal"
                 aria-label={activity.title}
               >
-                <div className="activity-card__top">
-                  <div className="activity-card__icon-box" aria-hidden="true">
-                    <IconComponent size={24} strokeWidth={1.8} />
-                  </div>
-                  <div className="activity-card__meta">
-                    {activity.badge && (
-                      <span className="activity-card__badge">{activity.badge}</span>
-                    )}
-                    <span className="activity-card__number">{number}</span>
+                <div className="activity-card__image-wrap">
+                  {activity.image ? (
+                    <img
+                      src={activity.image}
+                      alt={activity.title}
+                      className="activity-card__image"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="activity-card__image-placeholder">
+                      <ImageIcon size={36} strokeWidth={1.5} />
+                    </div>
+                  )}
+                  <div className="activity-card__image-overlay" aria-hidden="true" />
+                  
+                  {/* Floating Badges */}
+                  <div className="activity-card__floating-bar">
+                    <span className="activity-card__category-badge">
+                      {activity.category}
+                    </span>
+                    <span className="activity-card__index-pill">
+                      {number}
+                    </span>
                   </div>
                 </div>
 
                 <div className="activity-card__content">
+                  {activity.location && (
+                    <div className="activity-card__location">
+                      <MapPin size={13} className="activity-card__location-icon" />
+                      <span>{activity.location}</span>
+                    </div>
+                  )}
+
                   <h3 className="activity-card__title">{activity.title}</h3>
                   <p className="activity-card__desc">{activity.description}</p>
                 </div>
