@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="footer__brand-tagline">
-            All India Trade Union Congress
+            State Farming Corporation Workers and Employees Union
             <br />
             തൊഴിലാളികളുടെ ഐക്യത്തിനും അവകാശ സംരക്ഷണത്തിനും ക്ഷേമത്തിനുമായി.
           </p>

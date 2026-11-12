@@ -48,12 +48,6 @@ export default function Leadership() {
             </article>
           ))}
         </div>
-
-        <p className="leadership__placeholder-note">
-          നേതൃത്വ വിവരങ്ങൾ ചേർക്കുന്നതിന്{' '}
-          <code>src/data/leaders.js</code> ഫയൽ അപ്ഡേറ്റ് ചെയ്യുക.
-          ഫോട്ടോകൾ <code>public/images/leaders/</code> ഫോൾഡറിൽ ചേർക്കുക.
-        </p>
       </div>
     </section>
   );
