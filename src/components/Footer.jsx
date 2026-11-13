@@ -193,7 +193,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="footer__copyright">
-          © {currentYear} AITUC Pathanapuram. All rights reserved.
+          © {currentYear} NOCKSPACE TECHNOLOGIES. All rights reserved.
         </p>
       </div>
     </footer>
