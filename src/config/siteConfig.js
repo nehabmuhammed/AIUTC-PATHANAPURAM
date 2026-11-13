@@ -26,7 +26,7 @@ export const siteConfig = {
     email: "Sfckaituc@gmail.com",
     address: "സ്പെൻസർ ഭവൻ, പത്തനാപുരം",
     whatsapp: "https://wa.me/919947313698",
-    facebook: "",
+    facebook: "https://www.facebook.com/share/p/19wdRcxmo7/",
     instagram: "",
   },
 };

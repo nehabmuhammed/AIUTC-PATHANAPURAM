@@ -5,7 +5,7 @@
 export const leaders = [
   {
     id: 1,
-    name: "കെ.എസ്. ഇന്ദു ശേഖരൻ നായർ",
+    name: "കെ.എസ്. ഇന്ദുശേഖരൻ നായർ",
     designation: "പ്രസിഡന്റ്",
     description: "",
     image: "/images/leaders/leader-01.jpg",
@@ -17,13 +17,7 @@ export const leaders = [
     description: "",
     image: "/images/leaders/venugopal.jpeg",
   },
-  {
-    id: 1,
-    name: "അനിൽകുമാർ",
-    designation: "വൈസ് പ്രസിഡന്റ്",
-    description: "",
-    image: "/images/leaders/anilkumar.png",
-  },
+
   {
     id: 2,
     name: "എം.ജിയാസുദീൻ",
@@ -39,18 +33,18 @@ export const leaders = [
     image: "/images/leaders/leader-03.jpg",
   },
   {
+    id: 1,
+    name: "അനിൽകുമാർ",
+    designation: "വൈസ് പ്രസിഡന്റ്",
+    description: "",
+    image: "/images/leaders/anilkumar.png",
+  },
+  {
     id: 4,
     name: "കെ.എസ്. ബാബുമോൻ",
     designation: "വൈസ് പ്രസിഡന്റ്",
     description: "",
     image: "/images/leaders/leader-04-portrait.jpg",
-  },
-  {
-    id: 5,
-    name: "ഷാഹിന. എ",
-    designation: "സെക്രട്ടറി",
-    description: "",
-    image: "/images/leaders/leader-04.jpg",
   },
   {
     id: 6,
@@ -65,6 +59,13 @@ export const leaders = [
     designation: "സെക്രട്ടറി",
     description: "",
     image: "/images/leaders/leader-06.jpg",
+  },
+  {
+    id: 5,
+    name: "ഷാഹിന. എ",
+    designation: "സെക്രട്ടറി",
+    description: "",
+    image: "/images/leaders/leader-04.jpg",
   },
   {
     id: 8,
