@@ -68,12 +68,12 @@ All external links and contact information are managed inside:
 export const siteConfig = {
   organisationName: "AITUC Pathanapuram",
   registrationFormUrl: "https://forms.gle/J96duk9a17ddkbZq7",
-  complaintFormUrl: "YOUR_GOOGLE_COMPLAINT_FORM_URL",
+  complaintFormUrl: "https://forms.gle/AqMs6NBv8dm5vTkeA",
   contact: {
-    phone: "",
-    email: "",
-    address: "",
-    whatsapp: "",
+    phone: "+91 9947313698",
+    email: "Sfckaituc@gmail.com",
+    address: "സ്പെൻസർ ഭവൻ, പത്തനാപുരം",
+    whatsapp: "https://wa.me/919947313698",
     facebook: "",
     instagram: "",
   },

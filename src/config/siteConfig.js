@@ -15,7 +15,7 @@ export const siteConfig = {
   //  Format must start with "https://"
   // ----------------------------------------------------------------
   registrationFormUrl: "https://forms.gle/J96duk9a17ddkbZq7",
-  complaintFormUrl: "REPLACE_WITH_GOOGLE_COMPLAINT_FORM_URL",
+  complaintFormUrl: "https://forms.gle/AqMs6NBv8dm5vTkeA",
 
   // ----------------------------------------------------------------
   //  CONTACT INFORMATION
