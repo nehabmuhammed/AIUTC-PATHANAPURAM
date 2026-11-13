@@ -11,6 +11,20 @@ export const leaders = [
     image: "/images/leaders/leader-01.jpg",
   },
   {
+    id: 1,
+    name: "അഡ്വ.എസ്. വേണുഗോപാൽ",
+    designation: "വർക്കിംഗ് പ്രസിഡന്റ്",
+    description: "",
+    image: "/images/leaders/venugopal.jpeg",
+  },
+  {
+    id: 1,
+    name: "അനിൽകുമാർ",
+    designation: "വൈസ് പ്രസിഡന്റ്",
+    description: "",
+    image: "/images/leaders/anilkumar.png",
+  },
+  {
     id: 2,
     name: "എം.ജിയാസുദീൻ",
     designation: "ജനറൽ സെക്രട്ടറി",
