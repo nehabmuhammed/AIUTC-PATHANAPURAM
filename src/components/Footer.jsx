@@ -193,7 +193,16 @@ export default function Footer() {
           ))}
         </div>
         <p className="footer__copyright">
-          © {currentYear} DESIGN AND DEVELOPED BY NOCKSPACE TECHNOLOGIES. All rights reserved.
+          © {currentYear} DESIGN AND DEVELOPED BY{' '}
+          <a
+            href="https://nock-space.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer__dev-link"
+          >
+            NOCKSPACE TECHNOLOGIES
+          </a>
+          . All rights reserved.
         </p>
       </div>
     </footer>
