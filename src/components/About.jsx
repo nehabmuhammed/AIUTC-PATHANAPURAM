@@ -58,8 +58,8 @@ export default function About() {
           <div className="about__image-card">
             <div className="about__image-wrapper">
               <img
-                src="/images/gallery/gallery-03.jpg"
-                alt="സ്റ്റേറ്റ് ഫാമിംഗ് കോർപ്പറേഷൻ വർക്കേഴ്സ് & എംപ്ലോയീസ് യൂണിയൻ പതാക കൈമാറ്റം"
+                src="/images/about-aituc.jpg"
+                alt="സ്റ്റേറ്റ് ഫാമിംഗ് കോർപ്പറേഷൻ വർക്കേഴ്സ് & എംപ്ലോയീസ് യൂണിയൻ പതാക ഉയർത്തലും തൊഴിലാളി ഒത്തുചേരലും"
                 className="about__img"
                 loading="lazy"
               />
